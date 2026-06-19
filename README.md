@@ -14,17 +14,19 @@
 
 ## 📊 GitHub Stats & Performance
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.base.svg" alt="Aadeesh's GitHub Stats" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.calendar.svg" alt="Full Year Contribution Calendar" />
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.pagespeed.svg" alt="HackBoiler PageSpeed Insights" />
-</p>
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.base.svg" alt="Aadeesh's GitHub Stats" width="100%" />
+    </td>
+    <td width="50%" valign="top">
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.calendar.svg" alt="Full Year Contribution Calendar" width="100%" />
+      <br/>
+      <br/>
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.pagespeed.svg" alt="HackBoiler PageSpeed Insights" width="100%" />
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -64,4 +66,4 @@
 
 ---
 
-💡 *"Good logic can give e-waste a second life — and solve real problems while doing it."* ```
+💡 *"Good logic can give e-waste a second life — and solve real problems while doing it."*
