@@ -33,7 +33,7 @@ jobs:
         with:
           filename: metrics.pagespeed.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: "" # <-- This disables the base stats for this image
+          base: "" 
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://hackboiler.vercel.app/
@@ -47,6 +47,43 @@ jobs:
         with:
           filename: metrics.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          base: "" # <-- This disables the base stats for this image
+          base: "" 
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      # ----------------------------------------------------
+      # Image 4: Languages
+      # ----------------------------------------------------
+      - name: Languages
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.languages.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "" 
+          plugin_languages: yes
+          plugin_languages_ignored: html, css
+          plugin_languages_limit: 8
+
+      # ----------------------------------------------------
+      # Image 5: Habits
+      # ----------------------------------------------------
+      - name: Habits
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.habits.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+      # ----------------------------------------------------
+      # Image 6: Lines of Code
+      # ----------------------------------------------------
+      - name: Lines of Code
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: ""
+          plugin_lines: yes
