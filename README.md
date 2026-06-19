@@ -12,6 +12,22 @@
 
 ---
 
+## 📊 GitHub Stats & Performance
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.base.svg" alt="Aadeesh's GitHub Stats" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.calendar.svg" alt="Full Year Contribution Calendar" />
+</p>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.pagespeed.svg" alt="HackBoiler PageSpeed Insights" />
+</p>
+
+---
+
 ## 🛠️ Technologies & Tools  
 
 <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
@@ -21,8 +37,7 @@
   <img src="https://skillicons.dev/icons?i=postgres,mysql,sqlite,redis,tailwind,linux,vercel,bash,postman,figma&perline=15"/>
 </a>
 
-**🔌 IoT & Hardware**  
-<img src="https://img.shields.io/badge/Home%20Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white"/>
+**🔌 IoT & Hardware** <img src="https://img.shields.io/badge/Home%20Assistant-41BDF5?style=for-the-badge&logo=homeassistant&logoColor=white"/>
 <img src="https://img.shields.io/badge/ESPHome-000000?style=for-the-badge&logo=esphome&logoColor=white"/>
 <img src="https://img.shields.io/badge/Espressif%20(ESP32&ESP8266)-E7352C?style=for-the-badge&logo=espressif&logoColor=white"/>  
 
@@ -30,8 +45,7 @@
 
 ## 📌 About Me  
 
-**Socials**  
-<a href="https://www.linkedin.com/in/aadeesh-dev/" target="_blank" rel="noopener noreferrer">
+**Socials** <a href="https://www.linkedin.com/in/aadeesh-dev/" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/LinkedIn-0e76a8?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 <a href="https://www.youtube.com/@aadeesh-dev" target="_blank" rel="noopener noreferrer">
@@ -44,11 +58,10 @@
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
 </a>
 
-**Projects & Platforms**  
-<a href="https://github.com/aadeesh-dev" target="_blank" rel="noopener noreferrer">
+**Projects & Platforms** <a href="https://github.com/aadeesh-dev" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/GitHub-000?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 
 ---
 
-💡 *"Good logic can give e-waste a second life — and solve real problems while doing it."*  
+💡 *"Good logic can give e-waste a second life — and solve real problems while doing it."* ```
