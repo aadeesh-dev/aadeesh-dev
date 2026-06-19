@@ -18,12 +18,17 @@
   <tr>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.base.svg" alt="Aadeesh's GitHub Stats" width="100%" />
+      <br/><br/>
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.languages.svg" alt="Top Languages" width="100%" />
+      <br/><br/>
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.lines.svg" alt="Lines of Code" width="100%" />
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.calendar.svg" alt="Full Year Contribution Calendar" width="100%" />
-      <br/>
-      <br/>
+      <br/><br/>
       <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.pagespeed.svg" alt="HackBoiler PageSpeed Insights" width="100%" />
+      <br/><br/>
+      <img src="https://raw.githubusercontent.com/aadeesh-dev/aadeesh-dev/main/metrics.habits.svg" alt="Coding Habits" width="100%" />
     </td>
   </tr>
 </table>
