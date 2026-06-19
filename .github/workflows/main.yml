@@ -15,20 +15,38 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      # ----------------------------------------------------
+      # Image 1: Base Profile Stats
+      # ----------------------------------------------------
+      - name: Base Stats
+        uses: lowlighter/metrics@latest
         with:
+          filename: metrics.base.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          base: header, activity, community, repositories, metadata
           
-          # ----------------------------------------------------
-          # Full-Year Calendar Plugin (Isocalendar)
-          # ----------------------------------------------------
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-          
-          # ----------------------------------------------------
-          # Google PageSpeed Plugin
-          # ----------------------------------------------------
+      # ----------------------------------------------------
+      # Image 2: Google PageSpeed Insights
+      # ----------------------------------------------------
+      - name: PageSpeed
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.pagespeed.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "" # <-- This disables the base stats for this image
           plugin_pagespeed: yes
           plugin_pagespeed_token: ${{ secrets.PAGESPEED_TOKEN }}
           plugin_pagespeed_url: https://hackboiler.vercel.app/
-          plugin_pagespeed_detailed: yes # Set to 'no' if you want a smaller, less detailed report
+          plugin_pagespeed_detailed: yes
+
+      # ----------------------------------------------------
+      # Image 3: Full-Year Calendar (Isocalendar)
+      # ----------------------------------------------------
+      - name: Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.calendar.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: "" # <-- This disables the base stats for this image
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
