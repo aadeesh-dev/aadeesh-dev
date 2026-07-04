@@ -9,8 +9,8 @@ If you are trying to bypass the credit card requirement when creating an applica
 1. **Access Zero Trust**
    Log in to Cloudflare and navigate to the **Zero Trust** dashboard.
 
-2. **Navigate to Policies**
-   From the left sidebar, click on **Policies**, and then select **Access Controls**.
+2. **Navigate to Access Controls**
+   From the left sidebar, click on **Access Controls**, and then select **Policies**.
 
 3. **Locate the 'Allow Me' Policy**
    Find the policy named **Allow me policy** (or your equivalent default access policy).
